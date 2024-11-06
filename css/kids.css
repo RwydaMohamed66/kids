@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(222, 191, 211);
+    color:pink;
+}
+
+.header{
+    font-size: 50px;
+    font-family: fantasy;
+    animation: fadeln 2s ease-in-out;
+    animation: colorChange 3s infinite;
+}
+.frames{
+    width: 100%;
+    margin: 8% ;
+    justify-content: space-between;
+    border: 3px solid ;
+    display: flex;
+    height: 530px;
+    animation: fadeln 2s ease-in-out;
+    animation: colorChange 3s infinite;
+    
+
+}
+.frame1 , .frame2 , .frame3{
+display: inline;
+width: 25%;
+margin: 30px;
+height: 80%;
+
+}
+
+.frame1{
+    margin-top:40px;
+}
+.half1{ 
+    margin-top: 10px;
+    height:50%;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+.half2{
+    margin-top: 5px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height:50%;
+    font-size: 19px;
+}
+
+.header1{
+    font-size: 22px;
+    font-family: fantasy;
+}
+.header2{
+    font-size: 29px;
+    font-family: fantasy;
+}
+.half22{
+    margin-top: 5px;
+    text-align: end;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height:50%;
+    font-size : 19px;
+}
+img{
+    width: 100% ;
+    height: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    cursor: pointer;
+}
+img, :hover{
+    
+    animation: pulse 3s none;
+}
